@@ -45,6 +45,7 @@ fn main() -> Result<()> {
             letters.insert(character);
         }
 
+
         if letters.len() > 8 {
             println!("Sorry, you guessed wrong too many times :( The correct word was \"{}\"", word);
             return Ok(());
